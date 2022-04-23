@@ -42,6 +42,10 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-12 col-sm align-self-center">
+                    <a href="#ReserveTable" class="btn btn-warning">Reserve a Table</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -71,7 +75,7 @@
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
                             src="img/buffet.png" alt="Buffet">
               <div class="media-body">
-                  <h2 class="mt-0">Weekend Grand Buffet</h2>
+                  <h2 class="mt-0">Weekend Grand Buffet<span class="badge badge-danger ml-1">NEW</span></h2>
                   <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
               </div> 
               </div>
@@ -96,13 +100,83 @@
                             </p>
                     </div>
                 </div>
-                <!-- <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p> -->
             </div>
         </div>
     </div>
-
+     <div class="container">
+         <div class="row row-content justify-content-md-center">
+             <div class="col-sm-8">
+                <div class="card" id="ReserveTable">
+                    <h3 class="card-header bg-warning text-white">Reserve a table</h3>
+                      <div class="card-body">
+                          <form>
+                            <div class="form-group row">
+                          <dl class="row">
+                              <dt class="col-4 ml-2">Number of guests</dt>
+                              <dd class="col-8 row ml-1">
+                                <div class="form-check ml-1">
+                                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                                    <label class="form-check-label" for="flexRadioDisabled">
+                                      1 
+                                    </label>
+                                  </div>
+                                  
+                                  <div class="form-check ml-1">
+                                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" disabled>
+                                    <label class="form-check-label" for="flexRadioCheckedDisabled">
+                                      2
+                                    </label>
+                                  </div>
+                                  <div class="form-check offset-1 ml-1">
+                                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" disabled>
+                                    <label class="form-check-label" for="flexRadioCheckedDisabled">
+                                      3
+                                    </label>
+                                  </div>
+                                  <div class="form-check offset-1 ml-1">
+                                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" disabled>
+                                    <label class="form-check-label" for="flexRadioCheckedDisabled">
+                                      4
+                                    </label>
+                                  </div>
+                                  <div class="form-check offset-1 ml-1">
+                                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" disabled>
+                                    <label class="form-check-label" for="flexRadioCheckedDisabled">
+                                      5
+                                    </label>
+                                  </div>
+                                  <div class="form-check offset-1 ml-1">
+                                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled"disabled>
+                                    <label class="form-check-label" for="flexRadioCheckedDisabled">
+                                      6
+                                    </label>
+                                  </div>
+                              </dd>
+                            </div>
+                            <div class="form-group row">
+                                <label for="time" class="col-12 col-md-2 col-form-label"><dt>Date and Time</dt></label>
+                                <div class="col-sm-12 col-md-4">
+                                    <dd><input type="date" class="form-control col-sm-12" id="date" placeholder="Date"></dd>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <dd class="col-sm-expand"><input type="time" class="form-control" id="time" placeholder="Time"></dd>
+                                </div>
+                            </div>
+                        <dt class="col-6"></dt>
+                        <dd class="col-3">
+                        <div class="form-group row ml-3">
+                            <button type="button" class="btn btn-primary offset-8">
+                                 Reserve
+                            </button>
+                        </div>
+                        </dd>
+                    </dl>
+                          </form>
+                      </div>
+                </div>
+             </div>
+         </div>
+     </div>
     <footer class="footer">
         <div class="container">
             <div class="row">             
@@ -144,13 +218,9 @@
            </div>
         </div>
     </footer>
-<!-- Required meta tags always come first -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>
