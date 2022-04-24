@@ -25,12 +25,6 @@
     margin:0 px auto;
     padding:20 px 0px 20px 0px;
 }
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-}
 
 
 .address
@@ -50,14 +44,29 @@ body{
 .navbar-dark{
 background-color: #512DA8;
 }
+
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+
 .carousel
 {
     background-color: #512DA8;
    
 }
-.carousel-itme{
+
+
+.carousel-item{
     height:300px;
 }
+
+
 .carousel-item img{
     position:absolute;
     top:0;
